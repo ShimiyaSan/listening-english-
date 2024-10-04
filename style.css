@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.materi{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 1rem 0;
+}
+
+.video{
+    margin: auto;
+}
+
+.intruksi{
+    margin: auto;
+    width: 45%;
+}
+
+.materi .intruksi ol li{
+    list-style-type: square;
+}
+
